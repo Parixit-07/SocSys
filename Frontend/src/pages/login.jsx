@@ -1,7 +1,10 @@
 import { useState } from "react";
 import Footer from "../components/footer";
 import { FaUser, FaLock, FaEnvelope, FaPhone } from "react-icons/fa";
-import AdminDashboard from "./AdminDashboard";
+import AdminDashboard from "./dashboard/AdminDashboard";
+import UserDashboard from "./dashboard/UserDashboard";
+import HouseOwnerDashboard from "./dashboard/HouseOwnerDashboard";
+import TenantDashboard from "./TenantDashboard";
 
 
 function Login() {
